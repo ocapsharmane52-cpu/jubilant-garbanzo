@@ -1,0 +1,789 @@
+<!doctype html>
+<html lang="en"><head><script>window["__codeletBootstrap__"]=JSON.parse('{"A":"A","B":"20260930-01-654dee8","C":{"Abril Fatface":"YACgEZbkUVE,0","Alfa Slab One":"YACgEYS9sJU,0","Anton":"YACgEcYqQ-A,0","Archivo":"YACgEZulLoA,0","Arial Narrow":"YAGyDvJ_4Ts,0","Arial Rounded MT Bold":"YAFcfoaHu-s,0","Arial":"YAGyDvJ_4Ts,0","Avenir Next":"YAFcfmNq6UY,0","Baloo 2":"YADK30bC6HQ,0","Bebas Neue":"YACgESME5ew,0","Bricolage Grotesque":"YAFyMcdwzpc,0","Broken Glyph":"YADZ-exUkv0,0","Canva Sans":"YAFdJjTk5UU,1","Caveat":"YALBs2ploWQ,0","Comic Sans MS":"YAFcfvtOAUY,1","Cormorant Garamond":"YAFdJhX-538,0","Courier New":"YAGzXiGs0_8,0","Courier Prime":"YAD1aFjegN8,0","DM Sans":"YAD1aU3sLnI,0","DM Serif Display":"YAD1aYG82rc,0","Forum":"YACgEcnnqB4,0","Fraunces":"YAFdJpU7Kkk,0","Georgia":"YAGzXkO0pEM,0","Ghost Mono":"YAHQutsX00Q,0","Hanken Grotesk":"YAFcfhwp99E,0","Helvetica Neue":"YAFcf6CtJfI,0","Helvetica":"YAFcf6CtJfI,0","IBM Plex Mono":"YAFdJkmvhGI,0","Impact":"YAFcfnjI7Vk,0","Instrument Serif":"YAHFeOnZNEk,0","Inter":"YAFdJvSyp_k,3","Iowan Old Style":"YAGNIFa8j9o,0","Jacques Francois":"YADK3zbC6RM,0","JetBrains Mono":"YAFdJksXcAk,0","Josefin Sans":"YAFdJjvw9Ps,0","Lato":"YAFdJuFCnaw,0","Libre Baskerville":"YACgEUFdPdA,0","Lobster":"YAD8SnSjSFI,0","Lora":"YACgEXvxf8Q,0","Merriweather":"YACgEXvHxxs,0","Montserrat":"YAFdtQi73Xs,0","Nunito":"YAFdJoNRMmU,1","Oleo Script":"YACgEQQ14jI,0","Oswald":"YACgEQY10lw,0","Pacifico":"YADLjORQ1u4,0","Phantom Sans":"YAFdJvgJ5TU,0","Playfair Display":"YAFdJhem5V8,1","Plus Jakarta Sans":"YAGvf3_u0_Q,0","Poppins":"YAFdJjbTu24,1","Press Start 2P":"YAFyGr-8pmQ,0","Quicksand":"YAFdJpYtCxE,1","Raleway":"YAFdJhmxbVQ,1","Roboto Slab":"YAFdJswIKAg,0","Rockwell":"YAFcfyVZnN0,0","Rye":"YACgEdQP21k,0","Segoe UI":"YAHNdRD1Klw,0","Source Sans 3":"YAG4lO1Mj10,0","Source Serif 4":"YACgEfdj394,0","Space Grotesk":"YADZ-dYEmhg,0","Space Mono":"YADW1-vpsoc,0","Times New Roman":"YAGzXW3gftg,0","Times":"YAGzXW3gftg,0","Trebuchet MS":"YAFcfrglpVA,0","UV Display":"YAEdVfSSpYo,0","UV Sans":"YAFdJvgJ5TU,0","Ubuntu":"YACgERDU--Q,0","Verdana":"YAGzXTctYtQ,0","Work Sans":"YAGXhLOKv44,0","Yellowtail":"YACgEYG4kG4,0","ui-monospace":"YAD1aFjegN8,0","ui-sans-serif":"YACkoD1yZN0,0"}}');</script><script src="/_sdk/6542d56fbfe7a3eb.telemetry_sdk.js" integrity="sha512-ECdM0nK7EkwDuOqho2qxgyRQXyBHk9hZqRKMBr+Xsu6zjeHlt+qkO2N2YRiHN7Kg4e1fEHDhjIp4bGJYVypv1g=="></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teachers’ Day Message Card</title>
+  <style>
+    /* =========================
+       CSS STYLING & ANIMATIONS
+       ========================= */
+    :root {
+      --ink: #3c3040;
+      --plum: #623d67;
+      --coral: #c96158;
+      --paper: #fffaf0;
+      --cream: #f7ead3;
+      --gold: #d99a31;
+      --sage: #7d9872;
+      --shadow: 0 24px 60px rgba(73, 43, 62, 0.18);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      width: 100%;
+      min-height: calc(100 * min(var(--vh, 1vh), 1vh));
+      margin: 0;
+      color: var(--ink);
+      font-family: "Fraunces", Georgia, serif;
+      overflow-x: hidden;
+    }
+
+    button,
+    input {
+      font: inherit;
+    }
+
+    button {
+      cursor: pointer;
+    }
+
+    button:focus-visible,
+    input:focus-visible {
+      outline: 3px solid #5c93a3;
+      outline-offset: 3px;
+    }
+
+    .page-shell {
+      position: relative;
+      width: 100%;
+      min-height: calc(100 * min(var(--vh, 1vh), 1vh));
+      isolation: isolate;
+      overflow: hidden;
+    }
+
+    .page-shell::before,
+    .page-shell::after {
+      content: "";
+      position: absolute;
+      border-radius: 999px;
+      z-index: -1;
+      filter: blur(1px);
+      opacity: 0.58;
+    }
+
+    .page-shell::before {
+      width: 30rem;
+      height: 30rem;
+      top: -12rem;
+      left: -10rem;
+      background: #f2c3a5;
+    }
+
+    .page-shell::after {
+      width: 27rem;
+      height: 27rem;
+      right: -10rem;
+      bottom: -11rem;
+      background: #d4dfbc;
+    }
+
+    .grain {
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      opacity: 0.26;
+      pointer-events: none;
+      background-image: radial-gradient(rgba(75, 54, 59, 0.18) 0.7px, transparent 0.7px);
+      background-size: 12px 12px;
+    }
+
+    .hero {
+      max-width: 58rem;
+      margin: 0 auto;
+      padding: 3.5rem 1.5rem 1.7rem;
+      text-align: center;
+      animation: rise-in 700ms ease both;
+    }
+
+    .hero-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      margin-bottom: 0.85rem;
+      color: var(--coral);
+      font-family: "Trebuchet MS", sans-serif;
+      font-size: 0.76rem;
+      font-weight: 800;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    .hero-eyebrow::before,
+    .hero-eyebrow::after {
+      content: "✦";
+      color: var(--gold);
+      font-size: 0.9rem;
+    }
+
+    .hero h1 {
+      margin: 0;
+      color: var(--plum);
+      line-height: 1.03;
+    }
+
+    .hero-copy {
+      max-width: 43rem;
+      margin: 1rem auto 0;
+      color: #5f4b51;
+      font-size: 1.08rem;
+      line-height: 1.65;
+    }
+
+    .card-stage {
+      width: 100%;
+      max-width: 56rem;
+      margin: 0 auto;
+      padding: 1.2rem 1.25rem 4rem;
+    }
+
+    .greeting-card {
+      position: relative;
+      overflow: hidden;
+      border: 1px solid rgba(120, 74, 72, 0.16);
+      border-radius: 1.8rem;
+      box-shadow: var(--shadow);
+      animation: rise-in 700ms 100ms ease both;
+    }
+
+    .greeting-card::before {
+      content: "";
+      position: absolute;
+      inset: 0.8rem;
+      border: 1px dashed rgba(154, 99, 86, 0.25);
+      border-radius: 1.25rem;
+      pointer-events: none;
+    }
+
+    .card-inner {
+      position: relative;
+      padding: clamp(1.6rem, 5vw, 3.8rem);
+    }
+
+    .paper-corner {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 7rem;
+      height: 7rem;
+      background: linear-gradient(135deg, transparent 49%, #edcba2 50%, #f5dfbd 73%, transparent 74%);
+      opacity: 0.78;
+      pointer-events: none;
+    }
+
+    .corner-note {
+      position: absolute;
+      top: 1.7rem;
+      right: 1.65rem;
+      color: var(--coral);
+      font-family: "Trebuchet MS", sans-serif;
+      font-size: 0.7rem;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      transform: rotate(42deg);
+      text-transform: uppercase;
+    }
+
+    .leaf {
+      position: absolute;
+      width: 2rem;
+      height: 3.6rem;
+      border-radius: 100% 0 100% 0;
+      background: linear-gradient(135deg, #93ad79, #54735b);
+      opacity: 0.75;
+      pointer-events: none;
+    }
+
+    .leaf::after {
+      content: "";
+      position: absolute;
+      width: 1px;
+      height: 3rem;
+      top: 0.4rem;
+      left: 0.95rem;
+      background: rgba(255, 255, 255, 0.62);
+      transform: rotate(-35deg);
+    }
+
+    .leaf-one {
+      bottom: 1.8rem;
+      left: 1.8rem;
+      transform: rotate(19deg);
+    }
+
+    .leaf-two {
+      bottom: 3.7rem;
+      left: 3.5rem;
+      transform: scale(0.68) rotate(64deg);
+    }
+
+    .sparkle {
+      position: absolute;
+      color: var(--gold);
+      font-size: 1.45rem;
+      pointer-events: none;
+    }
+
+    .sparkle-a {
+      top: 19%;
+      left: 7%;
+      animation: twinkle 2.8s ease-in-out infinite;
+    }
+
+    .sparkle-b {
+      right: 9%;
+      bottom: 23%;
+      color: var(--coral);
+      animation: twinkle 2.8s 700ms ease-in-out infinite;
+    }
+
+    .sparkle-c {
+      top: 40%;
+      right: 5%;
+      color: var(--sage);
+      font-size: 1.1rem;
+      animation: twinkle 2.8s 1.1s ease-in-out infinite;
+    }
+
+    .recipient-area {
+      max-width: 29rem;
+      margin: 0 auto 1.8rem;
+    }
+
+    .recipient-label {
+      display: block;
+      margin-bottom: 0.55rem;
+      color: #674f58;
+      font-family: "Trebuchet MS", sans-serif;
+      font-size: 0.84rem;
+      font-weight: 800;
+      letter-spacing: 0.04em;
+    }
+
+    .recipient-input {
+      width: 100%;
+      border: 1px solid #d7b99b;
+      border-radius: 0.8rem;
+      background: rgba(255, 255, 255, 0.7);
+      color: var(--ink);
+      padding: 0.85rem 1rem;
+      font-size: 1rem;
+      transition: border-color 180ms ease, box-shadow 180ms ease, background 180ms ease;
+    }
+
+    .recipient-input::placeholder {
+      color: #9c8580;
+    }
+
+    .recipient-input:hover {
+      border-color: #b88772;
+    }
+
+    .recipient-input:focus {
+      border-color: #5c93a3;
+      background: #ffffff;
+      box-shadow: 0 0 0 4px rgba(92, 147, 163, 0.14);
+    }
+
+    .message-intro {
+      max-width: 38rem;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .recipient-greeting {
+      min-height: 2.2rem;
+      margin: 0;
+      color: var(--plum);
+      font-size: clamp(1.55rem, 4vw, 2.35rem);
+      font-weight: 700;
+      line-height: 1.18;
+    }
+
+    .message-preview {
+      min-height: 5.2rem;
+      margin: 1rem auto 0;
+      color: #5f4b51;
+      font-size: 1.05rem;
+      line-height: 1.65;
+    }
+
+    .reveal-wrapper {
+      margin: 2rem auto 0;
+      max-width: 38rem;
+    }
+
+    .letter-fold {
+      position: relative;
+      overflow: hidden;
+      border: 1px solid rgba(174, 118, 97, 0.27);
+      border-radius: 1.15rem;
+      background: #fffdf8;
+      box-shadow: 0 12px 28px rgba(108, 71, 71, 0.1);
+    }
+
+    .letter-fold::before {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 1.1rem;
+      background: repeating-linear-gradient(
+        45deg,
+        #e4ad87 0,
+        #e4ad87 8px,
+        #f5dcc0 8px,
+        #f5dcc0 16px
+      );
+      opacity: 0.9;
+    }
+
+    .hidden-letter {
+      display: grid;
+      grid-template-rows: 0fr;
+      opacity: 0;
+      transition: grid-template-rows 650ms cubic-bezier(.2, .8, .2, 1), opacity 380ms ease;
+    }
+
+    .hidden-letter > div {
+      min-height: 0;
+      overflow: hidden;
+    }
+
+    .hidden-letter p {
+      margin: 0;
+      padding: 0 1.5rem 1.5rem;
+      color: #5a4747;
+      font-size: 1rem;
+      font-style: italic;
+      line-height: 1.7;
+    }
+
+    .letter-fold.is-revealed .hidden-letter {
+      grid-template-rows: 1fr;
+      opacity: 1;
+    }
+
+    .letter-signoff {
+      display: block;
+      margin-top: 0.9rem;
+      color: var(--coral);
+      font-family: "Trebuchet MS", sans-serif;
+      font-size: 0.85rem;
+      font-style: normal;
+      font-weight: 800;
+      letter-spacing: 0.04em;
+    }
+
+    .action-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.75rem;
+      margin-top: 1.7rem;
+    }
+
+    .card-button {
+      border: 1px solid transparent;
+      border-radius: 999px;
+      padding: 0.82rem 1.08rem;
+      font-family: "Trebuchet MS", sans-serif;
+      font-size: 0.92rem;
+      font-weight: 800;
+      letter-spacing: 0.01em;
+      transition: transform 180ms ease, box-shadow 180ms ease, filter 180ms ease, background 180ms ease;
+    }
+
+    .card-button:hover:not(:disabled) {
+      transform: translateY(-2px);
+      filter: saturate(1.08);
+    }
+
+    .card-button:active:not(:disabled) {
+      transform: translateY(0);
+    }
+
+    .card-button:disabled {
+      cursor: not-allowed;
+      opacity: 0.62;
+    }
+
+    .reveal-button {
+      box-shadow: 0 8px 18px rgba(151, 75, 72, 0.22);
+    }
+
+    .secondary-button {
+      border-color: #d7b99b;
+      background: #fff9ee;
+      color: #654d53;
+    }
+
+    .secondary-button:hover {
+      background: #fffdf8;
+      box-shadow: 0 7px 16px rgba(87, 59, 59, 0.1);
+    }
+
+    .share-confirmation {
+      min-height: 1.5rem;
+      margin: 1rem 0 0;
+      color: #366958;
+      text-align: center;
+      font-family: "Trebuchet MS", sans-serif;
+      font-size: 0.92rem;
+      font-weight: 700;
+    }
+
+    .share-confirmation[hidden] {
+      display: none;
+    }
+
+    .card-note {
+      margin: 1.7rem auto 0;
+      max-width: 34rem;
+      color: #806c6b;
+      text-align: center;
+      font-family: "Trebuchet MS", sans-serif;
+      font-size: 0.78rem;
+      line-height: 1.5;
+      white-space: pre-line;
+    }
+
+    .particle-layer {
+      position: absolute;
+      inset: 0;
+      z-index: 4;
+      overflow: hidden;
+      pointer-events: none;
+    }
+
+    .particle {
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      width: 0.65rem;
+      height: 0.65rem;
+      border-radius: 999px;
+      background: var(--particle-color);
+      transform: translate(-50%, -50%);
+      animation: particle-burst 1000ms cubic-bezier(.16, .8, .3, 1) forwards;
+    }
+
+    .particle.star {
+      width: auto;
+      height: auto;
+      background: transparent;
+      color: var(--particle-color);
+      font-size: 1.25rem;
+      line-height: 1;
+    }
+
+    @keyframes rise-in {
+      from {
+        opacity: 0;
+        transform: translateY(18px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes twinkle {
+      0%, 100% {
+        opacity: 0.45;
+        transform: scale(0.82) rotate(0deg);
+      }
+      50% {
+        opacity: 1;
+        transform: scale(1.16) rotate(15deg);
+      }
+    }
+
+    @keyframes particle-burst {
+      0% {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.4);
+      }
+      12% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+        transform: translate(calc(-50% + var(--x)), calc(-50% + var(--y))) rotate(180deg) scale(0.7);
+      }
+    }
+
+    @media (max-width: 40rem) {
+      .hero {
+        padding-top: 2.5rem;
+      }
+
+      .card-stage {
+        padding: 0.8rem 0.85rem 2.6rem;
+      }
+
+      .greeting-card {
+        border-radius: 1.35rem;
+      }
+
+      .card-inner {
+        padding: 1.55rem 1.2rem 2rem;
+      }
+
+      .paper-corner,
+      .corner-note {
+        display: none;
+      }
+
+      .action-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+
+      .card-button {
+        width: 100%;
+      }
+
+      .leaf-one {
+        bottom: 0.8rem;
+        left: 0.75rem;
+      }
+
+      .leaf-two {
+        left: 2.15rem;
+        bottom: 2.1rem;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      *,
+      *::before,
+      *::after {
+        animation-duration: 1ms !important;
+        animation-iteration-count: 1 !important;
+        scroll-behavior: auto !important;
+        transition-duration: 1ms !important;
+      }
+
+      .particle-layer {
+        display: none;
+      }
+    }
+  </style>
+  <script src="https://cdn.tailwindcss.com/3.4.17" type="text/javascript"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.577.0/dist/umd/lucide.min.js" type="text/javascript"></script>
+  <script src="/_sdk/6c2ecc939521f244.data_sdk.js" type="text/javascript" integrity="sha512-gRx8s+XsZDN6mSIQu2sivLZysbV0WHhb5kXNUWlgVb5lCMU1foJYukyMEDPv8Tnoocb8iwqB4XdRrWc7oEGzIQ=="></script>
+  <script src="/_sdk/6e4b845d05dd79e4.editing_sdk.js" type="text/javascript" integrity="sha512-nfDAoBO2Sn6o6rLYgdnzgUs0nZfi4v1NV7M2ioocHZ6oj+ZnIEUmJGLGqFu2dnCue3Bjs5kWMae4qsFt05LfIA=="></script>
+  <script src="/_sdk/ddcab3e45959c817.resizing_sdk.js" type="text/javascript" integrity="sha512-VAviUKfZVzugWBSeULYjSljTX+nb84wc6Zzbx5GQaQgh6X2ISSjXi8eIiCDGdwDh10esJMY0+QFQgUy9NcrTlQ=="></script>
+ </head>
+ <body data-template-id="__page-root" style="background: linear-gradient(135deg, rgb(249, 237, 216), rgb(248, 228, 216), rgb(227, 236, 211));"><!-- =========================
+       HTML STRUCTURE
+       ========================= -->
+  <div class="page-shell">
+   <div class="grain" aria-hidden="true"></div>
+   <header class="hero">
+    <p data-template-id="hero-eyebrow" class="canva-text hero-eyebrow" style="color: rgb(201, 97, 88); font-weight: 700; font-style: normal; font-size: 12px; letter-spacing: 0.12rem;">A note of gratitude</p>
+    <h1 data-template-id="page-title" class="canva-text" style="color: rgb(98, 61, 103); font-weight: 400; font-style: normal; font-size: 77px; letter-spacing: -0.03rem; line-height: 1.03;">Happy Teachers’ Day Sir Randy</h1>
+    <p data-template-id="hero-copy" class="canva-text hero-copy" style="color: rgb(95, 75, 81); font-weight: 400; font-style: normal; font-size: 17px; line-height: 1.65;">For the mentors who turn questions into confidence, and everyday lessons into lifelong possibilities.</p>
+   </header>
+   <main class="card-stage">
+    <section data-template-id="greeting-card" class="canva-card greeting-card" aria-labelledby="card-greeting" style="background: linear-gradient(145deg, rgb(255, 253, 247), rgb(255, 243, 225));">
+     <div class="paper-corner" aria-hidden="true"></div><span class="corner-note" aria-hidden="true">Thank you</span> <span class="leaf leaf-one" aria-hidden="true"></span> <span class="leaf leaf-two" aria-hidden="true"></span> <span class="sparkle sparkle-a" aria-hidden="true">✦</span> <span class="sparkle sparkle-b" aria-hidden="true">✦</span> <span class="sparkle sparkle-c" aria-hidden="true">✧</span>
+     <div id="particle-layer" class="particle-layer" aria-hidden="true"></div>
+     <div class="card-inner">
+      <div class="recipient-area"><label data-template-id="recipient-label" class="canva-text recipient-label" for="recipient-input" style="color: rgb(103, 79, 88); font-weight: 700; font-style: normal; font-size: 14px;">Who is this message for?</label> <input data-template-id="recipient-input" class="canva-input recipient-input" id="recipient-input" type="text" maxlength="48" autocomplete="name" aria-describedby="name-help" placeholder="Enter your teacher’s name" style="background: rgb(255, 253, 248); color: rgb(60, 48, 64); font-weight: 400; font-style: normal; font-size: 16px;">
+      </div>
+      <div class="message-intro">
+       <h2 id="card-greeting" class="recipient-greeting" aria-live="polite"></h2>
+       <p id="message-preview" class="message-preview" aria-live="polite"></p>
+      </div>
+      <div class="reveal-wrapper">
+       <section data-template-id="letter-panel" id="letter-panel" class="canva-panel letter-fold" aria-live="polite" style="background: rgb(255, 253, 248);">
+        <div id="hidden-letter" class="hidden-letter">
+         <div>
+          <p id="revealed-message"><span id="letter-signoff" class="letter-signoff"></span></p>
+         </div>
+        </div>
+       </section>
+      </div>
+      <div class="action-grid" aria-label="Message card actions"><button data-template-id="reveal-button" id="reveal-button" class="canva-button card-button reveal-button" type="button" aria-controls="letter-panel" aria-expanded="false" style="background: rgb(201, 97, 88); color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 15px;">Reveal message</button> <button data-template-id="new-message-button" id="new-message-button" class="canva-button card-button secondary-button" type="button" style="background: rgb(255, 249, 238); color: rgb(101, 77, 83); font-weight: 700; font-style: normal; font-size: 15px;">Generate another message</button> <button data-template-id="share-button" id="share-button" class="canva-button card-button secondary-button" type="button" style="background: rgb(255, 249, 238); color: rgb(101, 77, 83); font-weight: 700; font-style: normal; font-size: 15px;">Send appreciation</button> <button data-template-id="reset-button" id="reset-button" class="canva-button card-button secondary-button" type="button" style="background: rgb(255, 249, 238); color: rgb(101, 77, 83); font-weight: 700; font-style: normal; font-size: 15px;">Reset card</button>
+      </div>
+      <p id="share-confirmation" class="share-confirmation" role="status" hidden=""></p>
+      <p data-template-id="card-note" id="name-help" class="canva-text card-note" style="color: rgb(128, 108, 107); font-weight: 400; font-style: normal; font-size: 13px; line-height: 1.5;">Your patience lights the way,
+Your wisdom guides each day.
+Your encouragement helps dreams take flight,
+And makes each lesson feel just right.
+
+Thank you for inspiring minds,
+For nurturing curiosity,
+And shaping futures with care,
+Leaving a difference that lasts a lifetime.
+
+With appreciation,
+Your student.
+
+With gratitude, always.</p>
+     </div>
+    </section>
+   </main>
+  </div><!-- =========================
+       JAVASCRIPT ES6 INTERACTIVITY
+       ========================= -->
+  <script>
+    (() => {
+      const messages = [
+        {
+          preview: "Your patience, wisdom, and encouragement make every lesson feel possible.",
+          letter: "Thank you for showing up with care, curiosity, and courage each day. The lessons you share travel far beyond the classroom, helping students believe in themselves and in what they can become."
+        },
+        {
+          preview: "You make room for questions, confidence, and countless new possibilities.",
+          letter: "Your guidance turns small moments into lifelong learning. Thank you for listening, inspiring, and helping every learner discover that their voice and dreams matter."
+        },
+        {
+          preview: "Your dedication leaves a bright and lasting mark on every life you teach.",
+          letter: "The kindness you give and the standards you set shape futures in meaningful ways. Thank you for being a steady source of knowledge, hope, and encouragement."
+        },
+        {
+          preview: "Great teachers plant seeds of confidence that continue to grow for years.",
+          letter: "Thank you for helping learners see their strengths, meet challenges with resilience, and find joy in discovery. Your impact is a gift that keeps unfolding."
+        }
+      ];
+
+      const initialName = "";
+      let messageIndex = 0;
+      let hasRevealed = false;
+
+      const recipientInput = document.getElementById("recipient-input");
+      const greeting = document.getElementById("card-greeting");
+      const preview = document.getElementById("message-preview");
+      const revealedMessage = document.getElementById("revealed-message");
+      const signoff = document.getElementById("letter-signoff");
+      const revealButton = document.getElementById("reveal-button");
+      const newMessageButton = document.getElementById("new-message-button");
+      const shareButton = document.getElementById("share-button");
+      const resetButton = document.getElementById("reset-button");
+      const letterPanel = document.getElementById("letter-panel");
+      const shareConfirmation = document.getElementById("share-confirmation");
+      const particleLayer = document.getElementById("particle-layer");
+
+      function getRecipientName() {
+        const enteredName = recipientInput.value.trim();
+        return enteredName || "Dear Teacher";
+      }
+
+      function updateGreeting() {
+        greeting.textContent = `Happy Teachers’ Day, ${getRecipientName()}!`;
+      }
+
+      function updateMessage() {
+        const activeMessage = messages[messageIndex];
+        preview.textContent = activeMessage.preview;
+        revealedMessage.firstChild.textContent = activeMessage.letter;
+        signoff.textContent = "With heartfelt appreciation.";
+      }
+
+      function clearParticles() {
+        particleLayer.replaceChildren();
+      }
+
+      function createCelebration() {
+        clearParticles();
+
+        const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+        if (reducedMotion) return;
+
+        const colors = ["#d99a31", "#c96158", "#7d9872", "#623d67", "#5c93a3"];
+
+        for (let i = 0; i < 20; i += 1) {
+          const particle = document.createElement("span");
+          const angle = (Math.PI * 2 * i) / 20 + (Math.random() * 0.24);
+          const distance = 75 + Math.random() * 130;
+          const x = Math.cos(angle) * distance;
+          const y = Math.sin(angle) * distance;
+          const isStar = i % 4 === 0;
+
+          particle.className = isStar ? "particle star" : "particle";
+          particle.style.setProperty("--x", `${x}px`);
+          particle.style.setProperty("--y", `${y}px`);
+          particle.style.setProperty("--particle-color", colors[i % colors.length]);
+
+          if (isStar) particle.textContent = "✦";
+
+          particleLayer.appendChild(particle);
+        }
+
+        window.setTimeout(clearParticles, 1150);
+      }
+
+      function revealMessage() {
+        if (hasRevealed) return;
+
+        hasRevealed = true;
+        letterPanel.classList.add("is-revealed");
+        revealButton.disabled = true;
+        revealButton.setAttribute("aria-expanded", "true");
+        shareConfirmation.hidden = true;
+        createCelebration();
+      }
+
+      function nextMessage() {
+        messageIndex = (messageIndex + 1) % messages.length;
+        updateMessage();
+
+        if (hasRevealed) {
+          letterPanel.classList.remove("is-revealed");
+          hasRevealed = false;
+          revealButton.disabled = false;
+          revealButton.setAttribute("aria-expanded", "false");
+        }
+
+        shareConfirmation.hidden = true;
+        clearParticles();
+      }
+
+      function shareMessage() {
+        shareConfirmation.hidden = false;
+        shareConfirmation.textContent = `Your appreciation for ${getRecipientName()} is ready to brighten their day.`;
+        shareConfirmation.focus?.();
+      }
+
+      function resetCard() {
+        recipientInput.value = initialName;
+        messageIndex = 0;
+        hasRevealed = false;
+        letterPanel.classList.remove("is-revealed");
+        revealButton.disabled = false;
+        revealButton.setAttribute("aria-expanded", "false");
+        shareConfirmation.hidden = true;
+        clearParticles();
+        updateGreeting();
+        updateMessage();
+        recipientInput.focus();
+      }
+
+      recipientInput.addEventListener("input", () => {
+        updateGreeting();
+        shareConfirmation.hidden = true;
+      });
+
+      revealButton.addEventListener("click", revealMessage);
+      newMessageButton.addEventListener("click", nextMessage);
+      shareButton.addEventListener("click", shareMessage);
+      resetButton.addEventListener("click", resetCard);
+
+      updateGreeting();
+      updateMessage();
+    })();
+  </script>
+ 
+</body></html>
